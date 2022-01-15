@@ -1,0 +1,71 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #d9d9d9;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #9e9e9e;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+}
+
+.navbar-brand h1 { /* Company name */
+  font-family: 'Rubik Beastly', sans-serif;
+  color: #5544de;
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #5544de;
+}
+
+#nav-list a:hover {
+	background: #d9d9d9;
+	font-size: 1.5em;
+}
+
+.navbar-header button {
+	margin-bottom: 10px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #5544de;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -36px;
+}
+
+.container .row {
+	background: #9e9e9e;
+	height: 1000px;
+	margin: 10px 10px 20px;
+	padding: 10px 10px 10px 10px;
+}
+
+.col-xs-12 {
+margin-bottom:20px;
+padding: 10px 10px 10px 10px;
+}
+
+
